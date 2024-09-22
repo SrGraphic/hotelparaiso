@@ -1,0 +1,294 @@
+/*FONTS*/ @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&display=swap');
+
+/*―――――――――― DEFAULT ――――――――――*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*―――――――――― LOGO ――――――――――*/
+
+.div-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    width: 300px;
+}
+
+/*―――――――――― NAVBAR-DESKTOP ――――――――――*/
+
+nav {
+    width: 100%;
+    padding: 28px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #151515;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+
+.navbar a:hover {
+    color: #8f859e;
+    transition: all 1s;
+    border-bottom: 1px solid black;
+}
+
+.navbar li {
+    margin-left: 90px;
+    /*Espaco-entre-opciones*/
+}
+
+.active a {
+    color: #8f859e;
+    border-bottom: 1px solid black;
+}
+
+/*―――――――――― CABECERA ――――――――――*/
+
+.img-header {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-content h2 {
+    font-weight: 700;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    margin-bottom: 11px;
+}
+
+.header-content p {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+}
+
+.flecha {
+    margin: 0 10px;
+}
+
+/*―――――――――― CONTACTO ――――――――――*/
+
+.contact-container {
+    display: flex;
+    margin: 90px 0 100px 400px;
+
+}
+
+/*Contacto-izquierda*/
+.form-izq {
+    width: 60%;
+}
+
+.form-izq h2 {
+    margin-left: 210px;
+    font-weight: 700;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 34px;
+}
+
+.form-izq p {
+    margin: 25px 310px 35px 0px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #9B9B9B;
+    text-align: center;
+}
+
+input,
+textarea,
+button {
+    width: 32%;
+    height: 50px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+    border: 0;
+}
+
+textarea {
+    height: 130px;
+    width: 65.5%;
+    resize: vertical;
+}
+
+.input-group input {
+    margin-right: 10px; /*Espacio entre campos*/
+}
+
+input[type="email"] {
+    width: 37%;
+}
+
+button {
+    width: 240px;
+    background-color: #8f859e;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+    font-size: 15px;
+    letter-spacing: .08em;
+    cursor: pointer;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+button:hover {
+    color: #645975;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.1);
+    background-color: #dcd1d5;
+    border: 0;
+}
+
+::placeholder {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+
+input:focus {
+    outline: none;
+    color: #9b9b9b;
+}
+
+textarea:focus {
+    outline: none;
+    color: #9b9b9b;
+}
+
+/*Contacto-derecha*/
+
+.tittle-inf {
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+hr {
+    margin-bottom: 25px;
+    background: linear-gradient(to right, #645975 20%, rgba(0, 0, 0, 0));
+    height: 1px;
+    border: none;
+}
+
+.icn-inf {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.icn-inf i {
+    color: #8f859e;
+    font-size: 15px;
+}
+
+.icn-inf p {
+    font-family: "Lato", sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.icn-icon-inf i {
+    color: #636e74;
+    margin-right: 18px;
+    font-size: 17px;
+}
+
+.icn-icon-inf i:hover {
+    color: #8f859e;
+}
+
+.icn-icon-inf {
+    margin-bottom: 60px;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+/*―――――――――― FOOTER ――――――――――*/
+
+footer {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+}
+
+.hr-tittle {
+    display: flex;
+    align-items: center;
+    margin: 10px 50px 0;
+}
+
+.line {
+    flex-grow: 1;
+    background-color: #8f859e;
+    height: 1px;
+    margin: 0 10px;
+}
+
+footer img {
+    width: 190px;
+    display: flex;
+    margin: 70px auto 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.hr-tittle i {
+    padding: 0 20px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.hr-tittle i:hover {
+    color: #8f859e;
+}

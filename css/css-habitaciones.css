@@ -1,0 +1,288 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&display=swap');
+
+/*―――――――――― DEFAULT ――――――――――*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*―――――――――― LOGO ――――――――――*/
+
+.div-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    width: 300px;
+}
+
+/*―――――――――― NAVBAR-DESKTOP ――――――――――*/
+
+nav {
+    width: 100%;
+    padding: 28px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #151515;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+
+.navbar a:hover {
+    color: #8f859e;
+    transition: all 1s;
+    border-bottom: 1px solid black;
+}
+
+.navbar li {
+    margin-left: 90px;
+    /*Espaco-entre-opciones*/
+}
+
+.active a {
+    color: #8f859e;
+    border-bottom: 1px solid black;
+}
+
+/*―――――――――― CABECERA ――――――――――*/
+
+.img-header {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-content h2 {
+    font-weight: 700;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    margin-bottom: 11px;
+}
+
+.header-content p {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+}
+
+.flecha {
+    margin: 0 10px;
+}
+
+/**/
+h3 {
+    font-weight: 700;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    margin: 90px 0 10px 340px;
+
+}
+
+.hr {
+    height: 5px;
+    background-color: #ebebeb;
+    margin: 0 300px 50px 280px;
+}
+
+/*―――――――――― HABITACIONES ――――――――――*/
+
+/**/
+.container-9 {
+    display: flex;
+    margin: 50px 300px 0 280px;
+}
+
+.container-9 img {
+    width: 55%;
+    border: 1px solid #e7e7e7;
+}
+
+/**/
+.rent-div {
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    padding: 50px 50px 0px 50px;
+
+}
+
+.rent-div h2 {
+    text-align: center;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    border-bottom: 1px solid rgba(99, 88, 116, 0.635)
+}
+
+.rent-div p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 2.5;
+    margin-top: 20px;
+}
+
+.container-9-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    border: 0;
+    background-color: #8f859e;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+    font-size: 14px;
+    letter-spacing: .08em;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+button:hover {
+    color: #645975;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.1);
+    background-color: #dcd1d5;
+    border: 0;
+}
+
+.container-10 {
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 300px 0 280px;
+    border-top: 0;
+}
+
+.icons-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-txt {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.icon-txt p {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+}
+
+.icon-txt i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    width: 20%;
+}
+
+.cupo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+
+.cupo i {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+/*―――――――――― FOOTER ――――――――――*/
+
+footer {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+}
+
+.hr-tittle {
+    display: flex;
+    align-items: center;
+    margin: 10px 50px 0;
+}
+
+.line {
+    flex-grow: 1;
+    background-color: #8f859e;
+    height: 1px;
+    margin: 0 10px;
+}
+
+footer img {
+    width: 190px;
+    display: flex;
+    margin: 70px auto 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.hr-tittle i {
+    padding: 0 20px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.hr-tittle i:hover {
+    color: #8f859e;
+}
