@@ -1,1 +1,1 @@
-## Web Hotel Paraíso
+## Hotel Paraíso
