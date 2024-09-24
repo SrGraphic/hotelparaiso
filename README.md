@@ -7,12 +7,9 @@
 
 ### RECURSOS 
 
-- Fuentes: *Montserrat* , *Lato* , *Poppins*
-  - https://fonts.google.com
+- Las fuentes usadas para esta maqueta son de [Google Fonts](https://fonts.google.com). (*Montserrat* , *Lato* , *Poppins*)
 
-- Iconos:
-  - https://www.flaticon.es/
-  - https://fontawesome.com/
+- Para los iconos se usan de estas fuentes [Flaticon](https://www.flaticon.es/) y [FontAwesome](https://fontawesome.com/).
 
 - Paleta de colores:
 
