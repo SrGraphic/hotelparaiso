@@ -1,4 +1,4 @@
-## Hotel Paraíso
+## Hotel Paraíso v2.1
 
 ### DESCRIPCIÓN
 
