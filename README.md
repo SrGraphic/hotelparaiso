@@ -8,7 +8,7 @@
 ### RECURSOS 
 
 - Fuentes: *Montserrat* , *Lato* , *Poppins*
-  -https://fonts.google.com
+  - https://fonts.google.com
 
 - Iconos:
   - https://www.flaticon.es/
