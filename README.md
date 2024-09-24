@@ -3,7 +3,7 @@
 ### DESCRIPCIÓN
 
 ▪ Hotel Paraíso es un proyecto para el grado. Una web simulando un hotel vacacional lacalizado en la isla de Lanzarote(España). 
-*No es una web real*
+*No es una web real*. Realizado sin JS, compuesto unicamente por HTML y CSS.
 
 ### RECURSOS 
 
