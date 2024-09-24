@@ -7,9 +7,12 @@
 
 ### RECURSOS 
 
-- Fuentes: *Montserrat* , *Lato* , *Poppins* (https://fonts.google.com)
+- Fuentes: *Montserrat* , *Lato* , *Poppins*
+  -https://fonts.google.com
 
-- Iconos: -> https://www.flaticon.es/ | https://fontawesome.com/
+- Iconos:
+  - https://www.flaticon.es/
+  - https://fontawesome.com/
 
 - Paleta de colores:
 
